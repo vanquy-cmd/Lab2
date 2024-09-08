@@ -25,7 +25,7 @@ export default function RootLayout() {
   if (!loaded) {
     return null;
   }
-
+///toi la Van Quy
   return (
     <ThemeProvider value={colorScheme === 'dark' ? DarkTheme : DefaultTheme}>
       <Stack>
